@@ -17,21 +17,13 @@
 |Referrer-Policy|No|Not set|
 |Server|Yes|`Apache-Coyote/1.1` (version exposed, finding L-01)|
 
-## 
-
 ## Other headers observed
-
-
 
 * `Set-Cookie: JSESSIONID=...; Path=/; HttpOnly` (no `Secure` flag, no `SameSite` attribute: findings L-04, L-03)
 * `Content-Type: text/html;charset=ISO-8859-1`
 
-## 
-
 ## Screenshots
 
-
-
-* `03-devtools-response-headers.png`
-* `04-devtools-cookies.png`
+* `05-devtools-response-headers.png`
+* `07-devtools-cookies.png`
 
