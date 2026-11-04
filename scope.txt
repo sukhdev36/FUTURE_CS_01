@@ -1,0 +1,35 @@
+VULNERABILITY ASSESSMENT: SCOPE & RULES OF ENGAGEMENT
+
+Target:        http://demo.testfire.net  (Altoro Mutual demo site)
+IP address:    65.61.137.117 (resolved at time of scan)
+Reason:        Public demo banking site published for security testing
+Date:          3 November 2026
+Assessor:      Sukh Ram Godara
+Program:       Future Interns, Cyber Security Internship, Task 1
+
+IN SCOPE
+- Public-facing pages of demo.testfire.net only
+- Passive analysis of pages browsed manually
+- HTTP response header and cookie review (browser DevTools)
+- Basic port and service detection (Nmap, default top 1000 ports)
+
+OUT OF SCOPE / NOT PERFORMED
+- Login bypass, exploitation, brute force, DoS
+- ZAP Active Scan, Spider, or any attack-style requests
+- Form payload injection (SQLi, XSS, etc.)
+- Testing of any other host or domain
+
+THIRD-PARTY HOSTS OBSERVED (NOT ASSESSED)
+- github.com, avatars.githubusercontent.com, swagger.io hosts
+  (appeared only because the demo site links to them)
+- demo-analytics.testfire.net (related subdomain, observed only)
+
+TOOLS USED
+- OWASP ZAP 2.17.0 (Safe Mode, passive scan via manual browsing)
+- Nmap 7.99 (command: nmap -sV -T3 demo.testfire.net)
+- Firefox Developer Tools (headers, cookies, page source)
+- Kali Linux (VM)
+- Canva (report design)
+
+METHOD
+Read-only. No credentials were used. No data was modified.
