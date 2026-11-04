@@ -2,15 +2,15 @@
 
 
 
-**\*\*Future Interns | Cyber Security Internship | Task 1\*\***
+**Future Interns | Cyber Security Internship | Task 1**
 
 
 
-**\*\*Author:\*\* Sukh Ram Godara**
+**Author: Sukh Ram Godara**
 
 
 
-**\*\*Date of assessment:\*\* 3 November 2026**
+**Date of assessment: 3 November 2026**
 
 
 
@@ -20,7 +20,7 @@
 
 This repository contains a read-only, passive vulnerability assessment of a public demo website. The goal was to identify common web security weaknesses, classify them as Low / Medium / High, explain them in simple business language, and suggest practical fixes.
 
-**Final report:** [`report/Vulnerability\\\_Assessment\\\_Report.pdf`](report/Vulnerability_Assessment_Report.pdf)
+**Final report:** [`report/Vulnerability\\\\\\\_Assessment\\\\\\\_Report.pdf`](report/Vulnerability_Assessment_Report.pdf)
 
 ## 
 
@@ -122,15 +122,15 @@ Full details, plain-language explanations and fixes are in [`findings.md`](findi
 ## Repository Structure
 
 ```
-FUTURE\\\_CS\\\_01/
+FUTURE\\\\\\\_CS\\\\\\\_01/
 ├── README.md
 ├── scope.txt
 ├── findings.md
 ├── report/
-│   └── Vulnerability\\\_Assessment\\\_Report.pdf
+│   └── Vulnerability\\\\\\\_Assessment\\\\\\\_Report.pdf
 └── evidence/
     ├── nmap-scan.txt
-    ├── 2026-11-03-ZAP-Report-demo\\\_testfire\\\_net.html
+    ├── 2026-11-03-ZAP-Report-demo\\\\\\\_testfire\\\\\\\_net.html
     └── (screenshots)
 ```
 
